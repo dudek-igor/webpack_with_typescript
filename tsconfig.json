@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "strict": true,
+    "lib": ["ES6", "DOM"],
+    "module": "ESNext",
+    "target": "ES2015",
+    "allowJs": false,
+    "sourceMap": true,
+    "noEmitOnError": true,
+    "esModuleInterop": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    // Definition type
+    // "declaration": true,
+    "typeRoots": ["node_modules/@types", "@types"]
+  }
+}
