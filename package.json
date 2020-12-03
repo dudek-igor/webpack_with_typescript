@@ -6,13 +6,19 @@
   "scripts": {
     "dev": "webpack --watch --config ./config/webpack.dev.js",
     "build": "webpack --config ./config/webpack.prod.js",
-    "start": "webpack serve --config ./config/webpack.dev.js"
+    "start": "webpack serve --config ./config/webpack.dev.js",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "npm run lint -- --fix"
   },
   "author": "Igor Dudek",
   "license": "MIT",
   "browserslist": [
     "defaults"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dudek-igor/webpack_with_typescript"
+  },
   "devDependencies": {
     "@types/webpack": "^4.41.25",
     "@typescript-eslint/eslint-plugin": "^4.9.0",
