@@ -1,6 +1,6 @@
 // import logo from './assets/svg/activity.svg';
 // import photo from './assets/images/cat.jpg';
-// import './index.css';
+import './index.css';
 
 // class Hero {
 //   constructor(private name: string) {}
